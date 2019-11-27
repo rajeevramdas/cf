@@ -10,4 +10,4 @@ One option is to use the aws cli to set this peramant password as shown below
 'aws cognito-idp admin-set-user-password \
 --user-pool-id <YourUserPoolIdHere> \
 --username admin \
---password '<YourNewPassword>' --permanent'
+--password '\<YourNewPassword\>' --permanent'
