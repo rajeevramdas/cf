@@ -7,7 +7,7 @@ You can use the runcf.sh script included in the subdirectory to create the cogni
 Once the user is created you have to reset the password before attempting to login using the kinesis data generator.
 One option is to use the aws cli to set this peramant password as shown below
 
-aws cognito-idp admin-set-user-password \\
---user-pool-id <YourUserPoolIdHere> \\
---username admin \\
---password '<YourNewPassword>' --permanent
+'aws cognito-idp admin-set-user-password \
+--user-pool-id <YourUserPoolIdHere> \
+--username admin \
+--password '<YourNewPassword>' --permanent'
